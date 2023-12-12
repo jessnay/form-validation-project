@@ -1,0 +1,101 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(45deg, #6D5ACF 0%, #C294E6 100%);
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.2em; 
+}
+
+form {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    max-width: 400px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="radio"],
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5ACF6D;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4CA85C;
+}
+
+button[type="reset"] {
+    background-color: #FF6B6B;
+}
+
+button[type="reset"]:hover {
+    background-color: #E55A5A;
+}
+
+.error-message {
+    color: #FF6B6B;
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: block;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 48%; 
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
